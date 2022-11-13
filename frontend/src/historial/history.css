@@ -1,0 +1,27 @@
+.history .contenedor-tarea{
+   margin-top: 3rem;
+   width: 15rem;
+   margin-left: 2rem;
+   height: 6rem;
+}
+.history .task{
+   display: flex;
+   margin-left: 30%;
+}
+.history .listaa{
+    margin-left: 15%;
+    margin-right: 15%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.history .opciones-tarea{
+   display: none;
+}
+.history .texto-tarea{
+   text-overflow: ellipsis;
+   overflow: hidden;
+}
+.history .edit-titulo{
+   color: rgb(46, 46, 46);
+   padding-left: 2rem;
+}

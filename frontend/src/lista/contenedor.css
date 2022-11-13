@@ -1,0 +1,51 @@
+.contenedor-tarea {
+  width: 60vh;
+  height: auto;
+  background-color: rgb(217, 217, 210);
+  border-radius: 0.51rem;
+  margin: 0.4rem;
+  cursor: pointer;
+}
+.contenedor-tarea:hover {
+  transition: 0.4s ease;
+  background-color: rgb(185, 185, 184);
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.tarea {
+  padding: 0.15rem;
+}
+.tarea h2 {
+  margin: 0%;
+  padding: 5px;
+}
+.opciones-tarea {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  margin-right: 4px;
+}
+.opciones-tarea button,
+.edit {
+  display: flex;
+  padding: 0.5rem;
+  text-decoration: none;
+  color: white;
+  font-size: 2vh;
+}
+.x {
+  cursor: pointer;
+  border: 0;
+  background-color: transparent;
+}
+
+.texto-tarea {
+  margin: 0;
+  height: 2rem;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}

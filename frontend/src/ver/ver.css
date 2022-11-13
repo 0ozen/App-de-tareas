@@ -1,0 +1,24 @@
+.ver-tarea{
+    margin-left: 30%;
+    display: flex;
+    justify-content: center;
+    height: auto;
+    flex-direction: column;
+    padding-top:5%;
+}
+.ver-tarea .tarea{
+    margin: 0;
+    width: 100%;
+    height: 50vh;
+}
+.ver-tarea .texto-tarea{
+    margin: 0;
+    height: auto;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.ver-tarea-titulo{
+    width: max-content;
+    color: rgb(32, 32, 32);
+    border-bottom: 1px solid rgb(22, 22, 22);
+}
