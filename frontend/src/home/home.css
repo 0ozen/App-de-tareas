@@ -1,73 +1,64 @@
 .contenedor {
   width: 100%;
-  height: 100vh;
-  font-size: 2vh;
-}
-.home {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr;
-  gap: 1rem;
-  width: 85%;
-  margin-left: 15%;
 }
 .home h1 {
-  width: 15rem;
+  width: max-content;
   display: flex;
-  margin-left: auto;
+  margin: 2rem auto;
   justify-content: center;
   color: rgb(31, 31, 31);
-  border-bottom: 1px solid rgb(34, 35, 35);
+  user-select: none;
+}
+.nueva-tarea{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 2048px;
+  padding: 1rem;
+  margin: 0 auto;
+  gap: 2rem;
 }
 .texto {
   display: flex;
   flex-direction: column;
-  margin: 2rem;
   background-color: rgba(217, 217, 217, 0);
-  border-radius: 1rem;
-  padding: 1rem;
 }
 .texto label {
-  margin-left: 1rem;
-  padding: 0.4rem;
+  padding: 10px 0 ;
   font-weight: bold;
 }
+
 .texto input,
 textarea {
-  border: none;
-  border-bottom: 2px solid aqua;
+  border-radius: 5px;
+  border: 1px solid gray;
   user-select: none;
   margin: 4px;
   outline: none;
   background-color: rgba(240, 248, 255, 0);
-  cursor: default;
+  cursor:  text;
 }
 .texto textarea {
   min-height: 250px;
   resize: none;
 }
 .lista {
-  border-radius: 2%;
-  margin: 1rem;
+  border-radius: 5px;
   margin-bottom: 4rem;
   background-color: rgba(217, 217, 217, 0);
 }
-.home .listaa {
-  margin-top: 6rem;
-}
+
 .send{
   border: none;
   cursor: pointer;
-  width: 5rem;
-  padding: .5rem;
+  border-radius: 10px;
+  padding: 10px;
   margin-left: auto;
   margin-right: auto;  
-  border-radius: 5%;
   background-color: rgb(211, 215, 213);
 }
 .send:hover{
   transition: 0.35s ease;
-  background-color: rgb(192, 197, 195);
+  background-color: rgb(198, 198, 198);
 }
 .contenedor-tarea{
   background-color: rgba(195, 195, 195, 0.685);

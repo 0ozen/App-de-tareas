@@ -1,41 +1,40 @@
 .contenedor-tarea {
-  width: 60vh;
-  height: auto;
   background-color: rgb(217, 217, 210);
-  border-radius: 0.51rem;
-  margin: 0.4rem;
-  cursor: pointer;
+  border-radius: 20px;
+  margin: 10px;
+  min-width: 100px;
+  min-height: 100px;
+  max-height: 100px;
+  padding: 10px;
+  cursor: default;
+  user-select: none;
 }
 .contenedor-tarea:hover {
   transition: 0.4s ease;
-  background-color: rgb(185, 185, 184);
+  background-color: rgb(201, 201, 201);
 }
-
 .top {
   display: flex;
   justify-content: space-between;
-  width: 100%;
 }
-.tarea {
-  padding: 0.15rem;
-}
-.tarea h2 {
-  margin: 0%;
-  padding: 5px;
+.contenedor-tarea h3 {
+ margin: 8px;
+ max-height: 100px;
 }
 .opciones-tarea {
   width: 100%;
   display: flex;
-  justify-content: end;
-  margin-right: 4px;
+  justify-content: space-between;
+}
+.list-link{
+  display: flex;
 }
 .opciones-tarea button,
 .edit {
   display: flex;
   padding: 0.5rem;
   text-decoration: none;
-  color: white;
-  font-size: 2vh;
+  color: rgb(0, 0, 0);
 }
 .x {
   cursor: pointer;
@@ -44,8 +43,8 @@
 }
 
 .texto-tarea {
+  height: 50px;
   margin: 0;
-  height: 2rem;
-  text-overflow: ellipsis;
-  overflow: hidden;
+  text-overflow: ellipsis !important;
+  overflow: hidden !important;
 }

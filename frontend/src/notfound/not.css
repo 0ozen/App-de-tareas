@@ -1,10 +1,9 @@
-.not{
-    display: flex;
-    justify-content: center;
-    align-content: center;
+.not {
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
-.not-cont{
-    display: flex;
-    position: absolute;
-    left: 50%;
+.not-cont {
+  display: flex;
+  position: absolute;
 }

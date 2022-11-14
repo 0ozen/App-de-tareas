@@ -48,26 +48,26 @@ export function Edit() {
 
 
   return (
-    <div>
+    <div className='contenedor'>
       <h1 className='edit-titulo'>Editar Tarea</h1>
       <div className='edit'>
         <div className="texto">
           <label htmlFor="label-titulo">
-            Title
+            Titulo
           </label>
           <input type="text" required className="titulo"
             defaultValue={tarea.titulo2}
             onChange={(e) => { addtitulo(e); }}
           />
           <label htmlFor="label-titulo">
-            Details
+            Descripción
           </label>
           <textarea type="text" required
             defaultValue={tarea.text2}
             onChange={(e) => { add(e); }}
             className="tarea"
           />
-          <button className="send" type="submit" onClick={(e) => { send(e, tarea.id); }}>Agregar</button>
+          <button className="send" type="submit" onClick={(e) => { send(e, tarea.id); }}>Guardar </button>
         </div>
       </div>
     </div>
